@@ -1,0 +1,389 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 86px;
+  background: linear-gradient(1135deg, rgb(3, 58, 41), rgb(0, 141, 99));
+  gap: 500px;
+}
+
+.nav-logo{
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+span{
+    color: rgb(255, 174, 0);
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  gap: 23px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a{
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover{
+    color: rgb(176, 229, 151);
+}
+
+
+header{
+    width: 990px;
+    height: 400px;;
+    background: linear-gradient(135deg, rgb(219, 234, 247), rgb(250, 243, 206));
+    margin-left: 186px;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: 1px solid rgb(220, 241, 245);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(6, 80, 6);
+    color: white;
+    font-weight: 900;
+    transition: all 0.3s ease;
+}
+
+.header-button:hover{
+    filter: brightness(1.2);
+    transform: translateY(-2px)
+}
+
+.header-div{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-right: 160px;
+}
+
+.div-h1{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: green;
+}
+
+.div-h2{
+  color: rgb(20, 20, 20);
+  font-weight: 900;
+  font-family: sans-serif;
+  font-size: 49px;
+}
+
+
+.div-p{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+
+.header-h1{
+    font-size: 100px;
+    margin-right: 130px;
+}
+
+
+.h1-h1{
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 200px;
+    color: rgb(2, 44, 2);
+}
+
+
+.p-p{
+    color: gray;
+    font-family:sans-serif;
+    font-size: 15px;
+    margin-left: 200px;
+}
+
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 7px;
+    padding: 30px;
+}
+
+.card1{
+    width: 260px;
+    height: 180px;
+    border-radius: 20px;
+    border: 1px solid rgb(158, 156, 156);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+h3{
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+.div-div-h1-2{
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+
+.div-div-button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(1, 61, 1);
+    font-weight: 900;
+    color: white;
+    margin-left: 60px;
+}
+
+.div-div-button-2{
+    width: 200px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: rgb(155, 119, 0);
+    font-weight: 900;
+    color: white;
+    margin-left: 60px;
+}
+
+
+
+.cards2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 16px;
+    padding: 30px;
+}
+
+
+.card2{
+    width: 260px;
+    height: 190px;
+    border-radius: 20px;
+    border: 1px solid rgb(158, 156, 156);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.div-div-p{
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+.button{
+    width: 150px;
+    height: 40px;
+    border: 2px solid rgb(1, 75, 1);
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.sozlamalar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 20px;
+}
+
+
+input{
+    width: 400px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.h1-h1-h1{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-top: 20px;
+    margin-left: 330px;
+}
+
+
+.sozlamalar-h1{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+}
+
+.sozlamalar-h1-2{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+}
+
+
+
+
+
+/* =======================================================
+   Sizning kodingizga tegmagan holda mobil moslashuvchanlik
+   ======================================================= */
+
+/* Planshetlar uchun (ekran o'lchami 1024px dan kichik bo'lganda) */
+@media screen and (max-width: 1024px) {
+  nav {
+    gap: 50px;
+    padding: 0 20px;
+  }
+  
+  header {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .header-div {
+    margin-right: 0;
+  }
+  
+  .header-h1 {
+    margin-right: 0;
+    font-size: 70px;
+  }
+
+  .h1-h1, .p-p {
+    margin-left: 5%;
+  }
+
+  .cards, .cards2 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .h1-h1-h1 {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .sozlamalar {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  input {
+    width: 80%;
+  }
+}
+
+/* Telefonlar uchun (ekran o'lchami 480px dan kichik bo'lganda) */
+@media screen and (max-width: 480px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+    gap: 15px;
+  }
+
+  ul {
+    flex-direction: row;
+    gap: 15px;
+    font-size: 14px;
+  }
+
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 30px 15px;
+    text-align: center;
+  }
+
+  .header-div {
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .div-h2 {
+    font-size: 32px;
+  }
+
+  .header-h1 {
+    font-size: 50px;
+  }
+
+  .h1-h1, .p-p {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .h1-h1 {
+    font-size: 24px;
+  }
+
+  .div-div-button, .div-div-button-2 {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .h1-h1-h1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-left: 0;
+  }
+
+  .sozlamalar {
+    gap: 15px;
+  }
+
+  input {
+    width: 100%;
+  }
+}
